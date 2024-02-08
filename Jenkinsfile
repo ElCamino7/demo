@@ -1,11 +1,6 @@
 pipeline{
   agent any
 
-  parameters{
-    gitParameter:  name: "TAG",
-                    type:  "PT_TAG",
-                    defaultValue: "main"
-  }
   stages{
     
     stage("Salutami"){
