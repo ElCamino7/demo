@@ -5,7 +5,6 @@ pipeline{
     gitParameters:  name: "TAG",
                     type:  "PT_TAG"
                     defaultValue: "main"
-    booleanParam(name: "Si", defaultValue: false, description: "")
   }
   stages{
     
