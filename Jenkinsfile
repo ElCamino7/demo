@@ -2,7 +2,9 @@ pipeline{
   agent any
 
   parameters{
-    choice(name: "Version", choices: ["0.0.1","0.0.2"], description : "")
+    gitParameters:  name: "TAG",
+                    type:  "PT_TAG"
+                    defaultValue: "master"
     booleanParam(name: "Si", defaultValue: false, description: "")
   }
   stages{
