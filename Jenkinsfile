@@ -10,11 +10,7 @@ pipeline{
     }
 
     stage("Joe Pesci"){
-      when{
-        expression{
-          params.Si == true
-        }
-      }
+      
       steps{
         echo "Buffo come"
       }
@@ -23,7 +19,7 @@ pipeline{
     stage("De Niro"){
       steps{
         echo "Buffo come"
-        echo "Versione ${params.Version}"
+     
       }
     }
     
