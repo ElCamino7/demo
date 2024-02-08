@@ -3,7 +3,7 @@ pipeline{
 
   parameters{
     choice(name: "Version", choices: ["0.0.1","0.0.2"], description : "")
-    booleanParam(name: "Si", defaultValue: true, description: "")
+    booleanParam(name: "Si", defaultValue: false, description: "")
   }
   stages{
     
