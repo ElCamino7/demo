@@ -27,7 +27,7 @@ pipeline{
     stage("De Niro"){
       steps{
         echo "Buffo come"
-        echo "Versione $(params.Version)"
+        echo "Versione ${params.Version}"
       }
     }
     
