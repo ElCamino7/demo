@@ -4,7 +4,7 @@ pipeline{
         gitParameter name: "TAG",
                      type: "PT_TAG",
                      defaultValue: "0.0.1",
-                     listSize: "1"
+                     listSize: 10
     }
   stages{
     
