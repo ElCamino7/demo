@@ -1,9 +1,9 @@
 pipeline{
   agent any
   parameters {
-        gitParameter( name: 'TAG',
-                     type: 'PT_TAG',
-                     defaultValue: '0.0.1'
+        gitParameter name: "TAG",
+                     type: "PT_TAG",
+                     defaultValue: "0.0.1"
     )
     }
   stages{
