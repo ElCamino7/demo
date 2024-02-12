@@ -4,7 +4,6 @@ pipeline{
         gitParameter name: "TAG",
                      type: "PT_TAG",
                      defaultValue: "0.0.1",
-                     visibleItemCount: 1
     }
   stages{
     
